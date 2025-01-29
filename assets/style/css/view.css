@@ -1,0 +1,47 @@
+.header {
+    background-image: url('https://placehold.co/1920x300');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.header .breadcrumb {
+    background: none;
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.header .breadcrumb-item a {
+    color: white;
+}
+.header .breadcrumb-item.active {
+    color: #ffc107;
+}
+
+.project-list a {
+    text-decoration: none;
+    color: #000;
+}
+.project-list a:hover {
+    text-decoration: underline;
+}
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+.project-list li {
+    padding: 5px 0;
+}
+.description-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.thumbnail-images img {
+    margin-right: 10px;
+}
